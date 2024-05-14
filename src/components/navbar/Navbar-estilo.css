@@ -1,0 +1,13 @@
+ul{
+    padding-left: 0px;
+}
+.navbar{
+    background-color:#193C70;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    --bs-navbar-padding-x:none;
+    --bs-navbar-toggler-padding-y:none !important;
+}
+
+

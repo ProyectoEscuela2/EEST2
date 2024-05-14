@@ -1,0 +1,53 @@
+.seccion{
+
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #b8b8b8;
+    background-color: #F7F7F7;
+    margin-top: 30px;
+}
+
+.sec-titulo{
+
+    border-radius: 10px;
+    border: 5px solid #193C70;
+    text-align: center;
+    color: #193C70;
+    margin: 10px;
+    padding: 3px;
+}   
+
+.sec-titulo-texto{
+    
+    margin-bottom: 0px;
+    font-weight: bolder;
+
+}
+.sec-horarios{
+
+    width: 100%;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sec-hor-manana{
+
+    border-bottom: solid #666666 1px;
+
+}
+
+.sec-hor-man-texto1{
+
+    color: #666666;
+    font-size: 25px;
+
+}
+
+.sec-hor-texto0{
+
+    font-weight: bolder;
+    font-size: 40px;
+    color: black;
+
+}

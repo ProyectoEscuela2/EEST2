@@ -1,0 +1,41 @@
+.footer{
+
+    background-color:#193C70;
+
+}
+
+.footer-contacto{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    color: white;
+}
+
+.footer-redes{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+
+.footer-text{
+
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.f-text-h{
+    
+    margin-bottom: 0px;
+    color: white;
+
+}
+
+.f-redes-texto{
+    color: white;
+    cursor: pointer;
+}

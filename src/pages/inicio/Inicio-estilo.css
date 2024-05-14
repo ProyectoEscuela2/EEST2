@@ -1,0 +1,21 @@
+.in-img{
+    width: 100%;
+    height: 300px;
+    position:relative;
+    z-index: -3;
+}
+
+.textInicio{
+    position: absolute;
+    top: 150px;
+    color: white;
+    padding: 20px;
+    z-index: 1;
+}
+
+.contImgInicio{
+    background: linear-gradient(to bottom right,black, 70%, transparent);
+    height: fit-content;
+    z-index: 0;
+}
+
