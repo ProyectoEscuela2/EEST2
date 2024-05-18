@@ -20,8 +20,11 @@ export function Atencion(){
                 <div className="sec-hor-tarde">
 
                     <p className="sec-hor-texto0">14:00hs a 17:30hs</p>
-
+                    <p className="sec-hor-man-texto1">Av. Mariano Moreno 74</p>    
+                
                 </div>
+                
+
             </div>
 
         </div>

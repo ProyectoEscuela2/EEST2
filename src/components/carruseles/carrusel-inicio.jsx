@@ -15,6 +15,10 @@ import {
 export function Carrusel(){
 
   return(
+
+    <>
+    <div className="contenedor-carrusel">
+    <h2 className='carrusel-titulo'><a href="galeria">Visitar galeria</a></h2>
   <UncontrolledCarousel className='in-carrusel'
     items={[
       {
@@ -37,5 +41,7 @@ export function Carrusel(){
       }
     ]}
   />
+  </div>
+  </>
   )
 }

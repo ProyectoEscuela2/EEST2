@@ -14,8 +14,12 @@
 }
 
 .contImgInicio{
-    background: linear-gradient(to bottom right,black, 70%, transparent);
+    background: linear-gradient(to bottom right,black, 60%, transparent);
     height: fit-content;
     z-index: 0;
 }
 
+.margin-30{
+
+    margin-top: 40px;
+}

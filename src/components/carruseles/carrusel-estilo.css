@@ -5,6 +5,8 @@
     border-radius: 20px;
 
 }
-.carrusel{
-    margin:15px;
+.contenedor-carrusel{
+
+        text-align: center;
+        margin:5px;
 }

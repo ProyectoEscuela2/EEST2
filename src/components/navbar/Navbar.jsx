@@ -17,8 +17,8 @@ export function Navbarr(props) {
 
   return (
     <div>
-      <Navbar color="faded" light>
-        <NavbarToggler onClick={toggleNavbar} className="me-2" />
+      <Navbar>
+        <NavbarToggler style={{ backgroundColor: 'white', padding:"3px" }} onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
           <NavItem>
@@ -32,9 +32,6 @@ export function Navbarr(props) {
             </NavItem>
             <NavItem>
               <NavLink href="C:\react\projects\nombre\src\pages\inicio\Inicio.jsx">Inscripciones</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="C:\react\projects\nombre\src\pages\inicio\Inicio.jsx">Historia</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="C:\react\projects\nombre\src\pages\inicio\Inicio.jsx">Contacto</NavLink>

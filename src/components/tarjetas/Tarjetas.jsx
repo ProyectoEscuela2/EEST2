@@ -6,7 +6,7 @@ export function Tarjeta({num,dato}){
     
         <li className="datos">
             <div className="numero">{num}</div>
-            <p>{dato}</p>
+            <p className='texto'>{dato}</p>
         </li>
     )
 }
