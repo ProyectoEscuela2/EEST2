@@ -1,3 +1,5 @@
+@import url("/src/assets/variables-color.css");
+
 .contenedor-especialidades{
 
     display: flex;
@@ -17,7 +19,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin: 1px;
-    border: #101518 solid 3px;
+    border: var(--color-primario-oscuro) solid 3px;
     border-radius: 10px;
 }
 .align{
@@ -29,8 +31,24 @@
 .especialidades-titulo{
     text-align: center;
 }
-.especialidad:active{
 
-    background-color: gray;
+.especialidad:hover{
+    background-color: var(--color-secundario-acromatico);
+}
+.especialidad:active{
+    border: var(--color-primario-oscuro) solid 3px;
+}
+
+@media screen and (min-width: 430px){
+
+    .contenedor-especialidades{
+
+        flex-wrap: nowrap;
+
+    }
+
+    .especialidad{
+        border: none;
+    }
 
 }

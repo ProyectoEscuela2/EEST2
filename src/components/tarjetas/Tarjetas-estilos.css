@@ -1,9 +1,11 @@
+@import url("/src/assets/variables-color.css");
+
 .datos{
     display: flex;
     align-items: center;
-    border: 3px solid #b8b8b8;
+    border: 3px solid var(--color-secundario-acromatico);
     border-radius: 10px;
-    background-color: #F7F7F7;
+    background-color: var(--color-primario-claro);
     margin: 5px;
     padding: 15px;
 
@@ -13,4 +15,26 @@
 }
 .texto{
     font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (min-width: 430px){
+
+    .datos{
+        display: block;
+        text-align: center;
+        width: 33%;
+    }
+    .numero{
+        margin-right: 0px;
+    }
+
+
+}
+@media screen and (min-width: 700px){
+
+    .texto{
+        font-size: 24px;
+    }
+
 }

@@ -1,0 +1,14 @@
+.contenedor-carrusel{
+
+  text-align: center;
+  margin:5px;
+}
+
+@media screen and (min-width: 430px){
+
+    .carousel-item img{
+
+      height: 500px;
+
+    }
+}

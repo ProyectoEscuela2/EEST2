@@ -5,12 +5,22 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
 import { MdAlternateEmail } from "react-icons/md";
 import "./Footer-estilo.css"
+import imagen03 from "C:/react/projects/nombre/src/assets/wave-haikei-oscuro.svg"
+
 
 export function Footer(){
 
     return(
 
+        <>
+        <div className="in-img-ola-footer">
+                <img src={imagen03} alt="" className='in-img-ola-footer' />    
+            </div> 
+
         <div className="footer">
+            
+        
+        <div className="flex">    
             <div className="footer-contacto">
                 <h4>Contacto</h4>
                 <div className="f-contacto-telefono">
@@ -48,12 +58,13 @@ export function Footer(){
                 </div>
             </a>
             </div>
+        </div>
             
             <div className="footer-text">
                 <h3 className="f-text-h">2024 - EEST Nº 2 - San Nicolas</h3>
             </div>
         </div>
-
+        </>
     )
 
 }

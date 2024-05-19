@@ -1,18 +1,22 @@
+@import url("/src/assets/variables-color.css");
+
 .seccion{
 
     margin: 10px;
     border-radius: 10px;
-    border: 2px solid #b8b8b8;
-    background-color: #F7F7F7;
+    background-color: var(--color-primario-oscuro);
     margin-top: 30px;
+    padding: 30px;
+
 }
+
 
 .sec-titulo{
 
     border-radius: 10px;
-    border: 5px solid #101518;
+    border: 5px solid var(--color-primario-claro);
     text-align: center;
-    color: #101518;
+    color: var(--color-primario-claro);
     margin: 10px;
     padding: 3px;
 }   
@@ -33,13 +37,13 @@
 
 .sec-hor-manana{
 
-    border-bottom: solid #666666 1px;
+    border-bottom: solid var(--color-primario-claro) 1px;
 
 }
 
 .sec-hor-man-texto1{
 
-    color: #666666;
+    color: var(--color-secundario-acromatico);
     font-size: 25px;
     margin-top: 5px;
 
@@ -49,6 +53,34 @@
 
     font-weight: bolder;
     font-size: 40px;
-    color: black;
+    color: var(--color-primario-claro);
+
+}
+
+.sec-mapa{
+
+    display: none;
+
+}
+
+
+
+@media screen and (min-width: 580px){
+
+    .seccion{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .sec-cuerpo{
+        display: flex;
+    }
+    
+    .sec-mapa{
+
+        display: block;
+
+    }
+    
 
 }

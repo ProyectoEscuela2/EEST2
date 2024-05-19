@@ -1,6 +1,8 @@
+@import url("/src/assets/variables-color.css");
+
 .footer{
 
-    background-color:#101518;
+    background-color:var(--color-primario-oscuro);
 
 }
 
@@ -9,33 +11,69 @@
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
-    color: white;
+    color: var(--color-primario-claro);
 }
 
 .footer-redes{
     padding-left: 30px;
     padding-bottom: 30px;
-    color: white;
+    color: var(--color-primario-claro);
 }
 
 
 .footer-text{
 
-    width: 100%;
     text-align: center;
     padding: 10px;
-    border-top: 2px solid white;
+    border-top: 2px solid var(--color-primario-claro);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .f-text-h{
     
     margin-bottom: 0px;
-    color: white;
+    color: var(--color-primario-claro);
 
 }
 
 .f-redes-texto{
-    color: white;
+    color: var(--color-primario-claro);
     cursor: pointer;
+}
+
+.in-img-ola-footer{
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    z-index: -5;
+}
+
+@media screen and (min-width: 660px) {
+
+    .flex{
+
+        display: flex;
+        align-items: top;
+        margin-left: 60px;
+        margin-bottom: 60px;
+        margin-right: 60px;
+    }
+
+    .footer-contacto{
+        width: 45%;
+        padding: 0px;
+        border-right: var(--color-primario-claro) solid 2px;
+        padding-left: 5%;
+        margin-left: 5%;
+        border-left: var(--color-primario-claro) solid 2px;
+    }
+    .footer-redes{
+        width: 45%;
+        padding: 0px;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-right: var(--color-primario-claro) solid 2px;
+
+    }
+    
 }

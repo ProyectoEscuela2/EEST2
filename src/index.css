@@ -1,3 +1,4 @@
+@import url('/src/assets/variables-color.css');
 *{
 
     cursor: default;
@@ -23,12 +24,12 @@ p{
 }
 
 .navbar-nav{
-    background-color: white;
+    background-color: var(--color-primario-claro);
     padding-left: 10px;
     border-radius: 10px;
 }
 .navbar-toggler-icon{
-    color: white;
+    color: var(--color-primario-claro);
 }
 
 .navbar-collapse{
@@ -38,4 +39,11 @@ p{
 a{
     text-decoration: none;
     list-style: none;
+}
+.navbar-a{
+    color: var(--color-primario-claro);
+}
+.navbar-a:hover{
+    color: var(--color-primario-claro);
+    cursor:pointer
 }

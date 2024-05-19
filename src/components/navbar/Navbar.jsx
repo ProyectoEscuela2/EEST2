@@ -1,4 +1,3 @@
-import "./Navbar-estilo.css"
 import React, { useState } from 'react';
 import {
   Collapse,
@@ -10,14 +9,16 @@ import {
   NavLink,
 } from 'reactstrap';
 
+import "./Navbar-estilo.css"
+
 export function Navbarr(props) {
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
 
-  return (
-    <div>
-      <Navbar>
+  return (<>
+    <div className="navbar-mobile">
+      <Navbar style={{backgroundColor:"#101518"}}>
         <NavbarToggler style={{ backgroundColor: 'white', padding:"3px" }} onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
@@ -40,5 +41,20 @@ export function Navbarr(props) {
         </Collapse>
       </Navbar>
     </div>
+
+    <div className="navbar-pc">
+
+        <ul className="navbar-pc-ul">
+          <li className='navbar-pc-li'><a className='navbar-a' href="">Inicio</a></li>
+          <li className='navbar-pc-li'><a className='navbar-a' href="">Especialidades</a></li>
+          <li className='navbar-pc-li'><a className='navbar-a' href="">Galeria</a></li>
+          <li className='navbar-pc-li'><a className='navbar-a' href="">Inscripciones</a></li>
+          <li className='navbar-pc-li'><a className='navbar-a' href="">Contacto</a></li>
+        </ul>
+
+    </div>
+
+
+    </>
   );
 }
