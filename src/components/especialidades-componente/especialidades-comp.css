@@ -1,0 +1,54 @@
+@import url("/src/assets/variables-color.css");
+
+.contenedor-especialidades{
+
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 291px;
+}
+
+.especialidad{
+
+    padding: 10px; 
+    width: 49%;
+    height: 50%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1px;
+    border: var(--color-primario-oscuro) solid 3px;
+    border-radius: 10px;
+}
+.align{
+
+    text-align: center;
+    width: 100%;
+
+}
+.especialidades-titulo{
+    text-align: center;
+}
+
+.especialidad:hover{
+    background-color: var(--color-secundario-acromatico);
+}
+.especialidad:active{
+    border: var(--color-primario-oscuro) solid 3px;
+}
+
+@media screen and (min-width: 430px){
+
+    .contenedor-especialidades{
+
+        flex-wrap: nowrap;
+
+    }
+
+    .especialidad{
+        border: none;
+    }
+
+}

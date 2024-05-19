@@ -1,0 +1,84 @@
+.seccion{
+
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--color-primario-oscuro);
+    margin-top: 30px;
+    padding: 30px;
+
+}
+
+
+.sec-titulo{
+
+    border-radius: 10px;
+    border: 5px solid var(--color-primario-claro);
+    text-align: center;
+    color: var(--color-primario-claro);
+    margin: 10px;
+    padding: 3px;
+}   
+
+.sec-titulo-texto{
+    
+    margin-bottom: 0px;
+    font-weight: bolder;
+
+}
+.sec-horarios{
+
+    width: 100%;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.sec-hor-manana{
+
+    border-bottom: solid var(--color-primario-claro) 1px;
+
+}
+
+.sec-hor-man-texto1{
+
+    color: var(--color-secundario-acromatico);
+    font-size: 25px;
+    margin-top: 5px;
+
+}
+
+.sec-hor-texto0{
+
+    font-weight: bolder;
+    font-size: 40px;
+    color: var(--color-primario-claro);
+
+}
+
+.sec-mapa{
+
+    display: none;
+
+}
+
+
+
+@media screen and (min-width: 580px){
+
+    .seccion{
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .sec-cuerpo{
+        display: flex;
+    }
+    
+    .sec-mapa{
+
+        display: block;
+
+    }
+    
+
+}

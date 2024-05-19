@@ -1,0 +1,12 @@
+.div-boton-cont{
+
+    background-color:#F45302;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+    border: #8F3000 1px solid ;
+
+}
