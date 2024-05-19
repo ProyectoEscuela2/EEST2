@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+@import url("/src/assets/variables-color.css");
+
+>>>>>>> fbc934eb708e0a27c041a7278061bdc75ee80451
 .navbar-pc{
     display: none;
     text-align: center;
@@ -22,16 +27,20 @@ li{
     margin-right: 2px;
 }
 
+<<<<<<< HEAD
 .navbar-a{
     color: var(--color-primario-claro);
     text-decoration: none;
 }
 
 
+=======
+>>>>>>> fbc934eb708e0a27c041a7278061bdc75ee80451
 .navbar-pc-li:hover{
     background-color: #000000;
 }
 
+<<<<<<< HEAD
 .navbar-mobile{
     z-index: 10;
     position: relative;
@@ -45,6 +54,9 @@ li{
 .nav-item{
     border-bottom: 1px var(--color-secundario-acromatico) solid;
 }
+=======
+
+>>>>>>> fbc934eb708e0a27c041a7278061bdc75ee80451
 @media screen and (min-width: 430px) {
 
     .navbar-mobile{

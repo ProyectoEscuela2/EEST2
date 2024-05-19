@@ -1,0 +1,49 @@
+@import url('/src/assets/variables-color.css');
+*{
+
+    cursor: default;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.div-boton{
+
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-nav{
+    background-color: var(--color-primario-claro);
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.navbar-toggler-icon{
+    color: var(--color-primario-claro);
+}
+
+.navbar-collapse{
+    z-index: 2;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar-a{
+    color: var(--color-primario-claro);
+}
+.navbar-a:hover{
+    color: var(--color-primario-claro);
+    cursor:pointer
+}
